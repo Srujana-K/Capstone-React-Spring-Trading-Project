@@ -1,0 +1,202 @@
+{
+  "orders": [
+    {
+      "clientId": "DBS001",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1000",
+      "quantity": "25",
+      "id": 1
+    },
+    {
+      "clientId": "DBS002",
+      "instrumentId": 1002,
+      "orderDirection": "SELL",
+      "price": "100",
+      "quantity": "25",
+      "id": 2
+    },
+    {
+      "clientId": "DBS001",
+      "instrumentId": 1002,
+      "orderDirection": "BUY",
+      "price": "1000",
+      "quantity": "50",
+      "id": 3
+    },
+    {
+      "clientId": "DBS002",
+      "instrumentId": 1001,
+      "orderDirection": "SELL",
+      "price": "100",
+      "quantity": "25",
+      "id": 4
+    },
+    {
+      "clientId": "DBS002",
+      "instrumentId": 1001,
+      "orderDirection": "SELL",
+      "price": "100",
+      "quantity": "25",
+      "id": 5
+    }
+  ],
+  "client": [
+    {
+      "id": "DBS001",
+      "clientName": "MacQuaire Bank Limited",
+      "custodian": {
+        "custodianId": "CS001",
+        "custodianName": "BNP Paribas"
+      },
+      "price": 14000000
+    },
+    {
+      "id": "DBS002",
+      "clientName": "Loyds Bank Corporate plc",
+      "custodian": {
+        "custodianId": "CS001",
+        "custodianName": "BNP Paribas"
+      },
+      "price": 14000000
+    }
+  ],
+  "instrument": [
+    {
+      "id": 1001,
+      "instrumentName": "US Treasury Bills",
+      "faceValue": 100,
+      "expiryDate": "15-Jan-21"
+    },
+    {
+      "id": 1002,
+      "instrumentName": "RBI-2026-6.5%",
+      "faceValue": 500,
+      "expiryDate": "06-Jun-21"
+    }
+  ],
+  "buyOrders": [
+    {
+      "id": 1,
+      "clientId": "DBS001",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1000",
+      "quantity": "25",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "clientId": "DBS002",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1000",
+      "quantity": "25",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "clientId": "DBS003",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1200",
+      "quantity": "25",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "clientId": "DBS003",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1200",
+      "quantity": "25",
+      "status": "Completed"
+    },
+    {
+      "id": 5,
+      "clientId": "DBS003",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1200",
+      "quantity": "25",
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "clientId": "DBS003",
+      "instrumentId": 1001,
+      "orderDirection": "BUY",
+      "price": "1200",
+      "quantity": "25",
+      "status": "Active"
+    }
+  ],
+  "sellOrders": [
+    {
+      "id": 1,
+      "clientId": "DBS001",
+      "instrumentId": 1002,
+      "orderDirection": "SELL",
+      "price": "1000",
+      "quantity": "25",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "clientId": "DBS002",
+      "instrumentId": 1001,
+      "orderDirection": "SELL",
+      "price": "1000",
+      "quantity": "25",
+      "status": "Completed"
+    },
+    {
+      "id": 1,
+      "clientId": "DBS001",
+      "instrumentId": 1002,
+      "orderDirection": "SELL",
+      "price": "1000",
+      "quantity": "25",
+      "status": "Active"
+    }
+  ],
+  "client_dashboard": [
+    {
+      "client_id": "DBS001",
+      "total_buy_value": 40000,
+      "total_sell_value": 24000
+    },
+    {
+      "client_id": "DBS002",
+      "total_buy_value": 20000,
+      "total_sell_value": 25000
+    },
+    {
+      "client_id": "DBS003",
+      "total_buy_value": 30000,
+      "total_sell_value": 20000
+    },
+    {
+      "client_id": "DBS004",
+      "total_buy_value": 50000,
+      "total_sell_value": 24000
+    }
+  ],
+  "custodian_dashboard": [
+    {
+      "custodian_id": "CSS001",
+      "total_buy_value": 400000,
+      "total_sell_value": 240000
+    },
+    {
+      "custodian_id": "CSS002",
+      "total_buy_value": 200000,
+      "total_sell_value": 250000
+    },
+    {
+      "custodian_id": "CS003",
+      "total_buy_value": 300000,
+      "total_sell_value": 200000
+    }
+  ]
+}

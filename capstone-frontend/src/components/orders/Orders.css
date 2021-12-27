@@ -1,0 +1,39 @@
+.fieldSize{
+    width: 300px;
+}
+form{
+    margin-top:20px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    width:700px;
+    padding: 25px;
+    padding-bottom: 50px;
+    background-color: lightskyblue;
+}
+.fieldRight{
+    margin-top: -70px;
+    margin-left: 350px;
+}
+
+.btn-section{
+    margin-top: -50px;
+    margin-left: 450px;
+    
+}
+.btn{
+    background-color: black;
+}
+.formHeader{
+    margin-left: 200px;
+}
+
+.alert{
+    width: 300px;
+    height: 10px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+
+}
+#alert-lg{
+    padding-bottom: 50px;
+}

@@ -1,0 +1,14 @@
+.right{
+    margin-left: 800px;
+}
+.left{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.head-size{
+    height:50px;
+    width: 500px;
+    margin-left: -110px;
+    padding-top: 10px;
+    padding-left: 180px;
+}

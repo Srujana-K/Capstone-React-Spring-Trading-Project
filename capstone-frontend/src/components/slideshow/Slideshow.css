@@ -1,0 +1,14 @@
+.slide{
+    background-color: lightskyblue;
+    height: 250px;
+    width:500px;
+    margin-left: 610px;
+    color: black;
+    margin-top: -10px;
+}
+.item-cls{
+    padding-top: 200px;
+}
+h5,p{
+    color: black;
+}
